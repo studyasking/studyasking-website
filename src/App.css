@@ -45,3 +45,20 @@
   border: none;
   border-radius: 5px;
 }
+.animated-button {
+  /* proporciona estilos iniciales */
+  background-color: #f7f7f7;
+  border: none;
+  color: #000;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.animated-button:hover {
+  /* agrega estilos de animación al pasar el mouse */
+  transform: scale(1.1);
+  background-color: rgb(0, 19, 77);
+  color: #fff;
+}

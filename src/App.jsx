@@ -11,8 +11,8 @@ function App() {
       
       <main>
         <div className="button-container">
-          <button>Asking</button>
-          <button>Botón 2</button>
+          <button className="animated-button">Asking</button>
+          <button className="animated-button">Botón 2</button>
         </div>
       </main>
 
