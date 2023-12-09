@@ -1,69 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+    --font-base: 'Roboto', sans-serif;
+    --color-text: #ffffff;
+    --color-highlight: #B9FF66;
+    --color-dark: #191A23;
+    --color-grey: #F3F3F3;
+    --color-background: #246EE9; 
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+    font-family: var(--font-base);
+
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    background-color: var(--color-background);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.section-padding {
+    margin: 130px 0;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+@media(max-width: 768px) {
+    .section-padding {
+        margin: 50px 0;
+    }  
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+h2 {
+
+    font-size: 40px;
+    line-height: 51px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 38px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 77px;
+}
+
+@media(max-width: 768px) {
+    .title {
+        font-size: 43px;
+        line-height: 55px;
+    }
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="email"],
+input[type="text"] {
+    border-radius: 14px;
+    padding: 15px;
+}
+
+.btn-studyasking {
+    padding: 15px 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #191A23;
+    border-radius: 14px;
+    border: none;
+    color: #fff;
+
+}
+
+.btn-studyasking:hover {
+    transform: scale(1.1);
+}
+
+@media(max-width: 768px) {
+    .btn-studyasking {
+        padding: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
 }
