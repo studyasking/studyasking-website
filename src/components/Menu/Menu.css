@@ -56,8 +56,9 @@
     margin-bottom: 1rem;
 }
 .navbar-toggler-icon{
+    filter: brightness(0) invert(1);
     background: url(../../assets/menu.png) no-repeat;
-    
+    color: white;
 }
 .home-logo{
     filter: brightness(0) invert(1);

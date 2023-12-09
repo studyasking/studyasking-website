@@ -2,6 +2,7 @@
 .tscroll{
     visibility: hidden;
     display: none;
+    color: white;
 }
 @media(max-width: 1024px) {
     .clients{

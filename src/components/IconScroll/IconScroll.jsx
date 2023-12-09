@@ -1,4 +1,3 @@
-import React from 'react';
 import './IconScroll.css'
 import { TbArrowsHorizontal } from 'react-icons/tb';
 const IconScroll = () => {
