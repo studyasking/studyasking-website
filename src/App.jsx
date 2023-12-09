@@ -1,26 +1,17 @@
-import React from 'react';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="container">
-      <header>
-        <img src="/logo.png" alt="Logo" className="logo" />
-        <h1>Study Asking</h1>
-      </header>
-      
-      <main>
-        <div className="button-container">
-          <button className="animated-button">Asking</button>
-          <button className="animated-button">Botón 2</button>
-        </div>
-      </main>
+import { Footer } from './container';
+import { Hero} from './container';
+import { Menu } from './components';
 
-      <footer>
-        <button className="corner-button">social</button>
-      </footer>
-    </div>
-  );
-}
+
+
+const App = () => (
+  <div className="container">
+    <Menu />
+    <Hero />
+    <Footer />
+  </div>
+);
 
 export default App;
