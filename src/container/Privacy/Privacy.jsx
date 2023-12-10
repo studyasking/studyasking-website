@@ -16,7 +16,7 @@ const Privacy = () => {
         <h3>Data Responsibility</h3>
         <p>Our app is built on top of OpenAI's ChatGPT. We are not responsible for how OpenAI collects or handles data. For information on OpenAI’s data practices, please refer to their privacy policy. We ensure that the behavioral data we collect is handled with the utmost respect for your privacy.</p>
         <h3>Policy Changes</h3>
-        <p>We reserve the right to modify this privacy policy at any time. Any changes will be communicated through the app or via email.</p>
+        <p>We reserve the right to modify this privacy policy at any time. Any changes will be communicated through the app.</p>
         <h3>Contact Us</h3>
         <p>For any questions or concerns regarding your privacy, please contact us at studyasking@gmail.com.</p>
           </div>
