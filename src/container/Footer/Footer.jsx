@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="col-md-8 col-12 ">
           <ul className="navbar-footer">
             {data.Menu.slice(0, -1).map((item, index) => (
-              <li> <a href="#" >{item.text}</a></li>
+              <li> <a href={item.link} >{item.text}</a></li>
             ))}
           </ul>
         </div>
