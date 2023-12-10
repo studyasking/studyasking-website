@@ -22,11 +22,18 @@
     color: var(--color-text);
 }
 
+
+.navbar-nav .nav-link.active {
+    color: var(--color-active);
+}
 .nav-link:last-child:hover {
     background: var(--color-highlight);
     color: var(--color-text);
 
 }
+
+
+
 
 @media(max-width: 991px) {
 

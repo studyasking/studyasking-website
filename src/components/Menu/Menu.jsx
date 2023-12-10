@@ -15,9 +15,11 @@ const Menu = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         <Nav>
-                            {data.Menu.map((item, index) => (
-                                <Nav.Link href={item.link}>{item.text}</Nav.Link>
-                            ))}
+                        {data.Menu.map((item, index) => (
+                            item.external ?
+                            <Nav.Link href={item.link} target="_blank">{item.text}</Nav.Link> :
+                            <Nav.Link href={item.link}>{item.text}</Nav.Link>
+                        ))}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
