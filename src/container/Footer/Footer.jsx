@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
       <div className="row">
         <div className="rights">
-          <p>© {new Date().getFullYear()} Study Labs LLC. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} Study Labs LLC. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
